@@ -222,3 +222,4 @@ class StereoHeart:
 
 if __name__ == "__main__":
     StereoHeart().run()
+    pygame.quit()
