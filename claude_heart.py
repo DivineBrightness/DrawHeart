@@ -61,7 +61,7 @@ def generate_heart_particles(num_particles=2000):
 
 def main():
     pygame.init()
-    display = (1200, 800)
+    display = (300, 200)
     pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
     pygame.display.set_caption("💗 粒子爱心 💗")
 
