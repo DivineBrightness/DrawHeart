@@ -23,7 +23,7 @@ class HeartAnimation:
         self.center_y = screen_height // 2
 
         # 可调节参数
-        self.base_scale = 0.2  # 减小基础尺寸
+        self.base_scale = 1.0  # 减小基础尺寸
         self.animation_speed = 1.0
         self.particle_count = 50
         self.beat_frequency = 1.2
