@@ -52,14 +52,14 @@ AMBIENT_COLOR = (255, 192, 203, 50)
 
 
 class StereoHeart:
-    def __init__(self, width=800, height=600):
+    def __init__(self, width=400, height=300):
         self.screen = pygame.display.set_mode((width, height), RESIZABLE)
         self.clock = pygame.time.Clock()
         self.running = True
         self.center = (width // 2, height // 2)
 
         # 3D参数
-        self.heart_scale = 0.7
+        self.heart_scale = 0.6
         self.depth = 3.0
         self.rotation = 0
         self.light_dir = Vector3(1, -1, 0.5).normalize()
