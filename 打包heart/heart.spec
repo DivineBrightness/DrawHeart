@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    cfi=False,  # 禁用 Control Flow Guard
 )
